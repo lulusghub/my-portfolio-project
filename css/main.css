@@ -1,0 +1,212 @@
+
+header {
+height: 700px;
+    background: url('../img/hero-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    padding: 10px; 10px; 10px; 10px;
+  }
+
+  footer {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #095156;
+    color: #ffffff;
+    font-size: 15pt;
+    font-weight: normal;
+    height: auto;
+    padding-left: 0px;
+    padding-top: 250px;
+
+  }
+
+
+  /***************SECTIONS CODE*************/
+
+  #work {
+    height: 1200px;
+    background-color: #ffffff;
+    border-width: 2px;
+    border-color: #b7b7b7;
+    padding-left: 24px;
+  }
+
+  #about {
+    height: 500px;
+    background-color: #087e8b;
+    padding-left:20px;
+    padding-top: 10px;
+    padding-right:20px;
+    padding-bottom: 100px;
+  }
+
+
+  #contact {
+    height: 450px;
+    background-color: #095156;
+    padding-top: 20px;
+  }
+
+
+
+  /***** GRID *****/
+
+  .full-width {
+      width: 960px;
+  }
+
+  .half-width {
+      width: 460px;
+      float; left;
+  }
+
+  .third-width {
+      width: 320px;
+      float: left;
+      padding-left: 60px;
+  }
+
+
+  /******************HEADER CODE*******************/
+
+  header h1 {
+  font-family: 'Roboto Slab', serif;
+  color: #bdbf09;
+  font-size: 40pt;
+  text-align: center;
+}
+
+  header h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #095156;
+  font-size: 28pt;
+  text-align: center;
+  line-height: normal;
+}
+
+.header-text {
+  padding: 300px; 0px; 50px; 0px;
+}
+
+
+/******************WORK SECTION CODE*******************/
+
+#work h3 {
+  color: #095156;
+  font-size: 32pt;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+#work h4 {
+  color: #095156;
+  font-size: 20pt;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  font-weight: bold;
+}
+
+#work p {
+  color: #095156;
+  font-size: 15pt;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  font-style: normal;
+  padding-right: 30px;
+  width: 570px;
+  float: right;
+}
+
+#work img {
+  padding-left: 20px;
+}
+
+
+
+
+/******************ABOUT ME SECTION CODE*******************/
+
+
+#about h3 {
+  color: #ffffff;
+  font-size: 32pt;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+#about h4 {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  float: right;
+}
+
+#about p {
+  color: #ffffff;
+  font-size: 14pt;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  float: right;
+}
+
+.right-column {
+  width: 650px;
+  padding-right: 80px;
+  float: right;
+}
+
+.emphasis {
+  font-weight: bolder;
+}
+
+.emphasis-2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 28pt;
+}
+
+#about img {
+    padding: 0px 10px 0px 100px;
+    height: 380px;
+    width: 240px;
+}
+
+
+/******************CONTACT SECTION CODE*******************/
+
+#contact h3 {
+    color: #ffffff;
+    font-size: 32pt;
+    font-family: 'Roboto Slab', serif;
+    text-align:center;
+    font-weight: bold;
+}
+
+#contact h4 {
+    color: #ffffff;
+    font-size: 24pt;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#contact p {
+    color: #ffffff;
+    font-size: 18pt;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 8px;
+}
+
+#contact ul img {
+    font-size: 30px;
+    padding-left: 14px;
+    padding-right: 20px;
+    align-items: center;
+}
